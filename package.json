@@ -1,0 +1,25 @@
+{
+  "name": "qmltypescript",
+  "version": "0.1.0",
+  "description": "Converts TypeScript to Qt 5 QML JavaScript. Write your code in TypeScript and run it on a Qt Quick Application (or QmlScene).",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/amilcarsantos/QmlTypeScript",
+  "keywords": [
+    "typescript",
+    "qt",
+    "qml",
+    "qtsc"
+  ],
+  "author": "Amilcar Santos",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0"
+  }
+}
